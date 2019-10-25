@@ -1,14 +1,11 @@
 # Cumulocity Integration Microservice for Disruptive Technologies
 
 ## Description
-This is a Microservice for Cumulocity which allows you to integrate Devices from [Disruptive Technologies](https://www.disruptive-technologies.com/) to Cumulocity.
+This is a Microservice that allows Receiving, Mapping and Transport of [Disruptive Technologies](https://www.disruptive-technologies.com/) Device Messages to Cumulocity.
 The integration is a cloud-to-cloud integration with a Server Side Agent running within Cumulocity as a Microservice.
-The "Data Connectors" of Disruptive Technologies are used to forward data via REST to the endpoint provided by the Microservice.
-Receiving, Mapping and Transport of DT Messages to Cumulocity is part of the Microservice.
+The "Data Connectors" of Disruptive Technologies (DT) are used to forward data via REST to the endpoint provided by the Microservice.
 
 ![architecture](img/architecture.png)
-
-You need a Cumulocity Tenant and access to the DT Studio of Disruptive Technologies.
 
 The [Cumulocity Microservice SDK](https://cumulocity.com/guides/microservice-sdk/introduction/) version 1005.1.0 in combination with Java 8 + Spring Boot 1.5 are used.
 
