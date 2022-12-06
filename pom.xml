@@ -10,7 +10,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <c8y.version>1005.1.0</c8y.version>
+        <c8y.version>1015.0.190</c8y.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <main.class>dtintegration.App</main.class>
@@ -20,14 +20,14 @@
         <repository>
             <id>cumulocity</id>
             <layout>default</layout>
-            <url>http://download.cumulocity.com/maven/repository</url>
+            <url>https://download.cumulocity.com/maven/repository</url>
         </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
             <id>cumulocity</id>
             <layout>default</layout>
-            <url>http://download.cumulocity.com/maven/repository</url>
+            <url>https://download.cumulocity.com/maven/repository</url>
         </pluginRepository>
     </pluginRepositories>
 

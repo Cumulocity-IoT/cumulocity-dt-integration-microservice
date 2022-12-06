@@ -7,12 +7,12 @@ The "Data Connectors" of Disruptive Technologies (DT) are used to forward data v
 
 ![architecture](img/architecture.png)
 
-The [Cumulocity Microservice SDK](https://cumulocity.com/guides/microservice-sdk/introduction/) version 1005.1.0 in combination with Java 8 + Spring Boot 1.5 are used.
+The [Cumulocity Microservice SDK](https://cumulocity.com/guides/microservice-sdk/introduction/) version 1015.0.190 in combination with Java 8 + Spring Boot 1.5 are used.
 
 ## Prerequisites
 
 - A Cumulocity Tenant with Admin Privileges and Microservice Deployment Feature. You can request a free trial [here](https://cumulocity.com/try-cumulocity-free/).
-- Access to the DT Studio. This requires to purchase a [Sensor Pilot Kit](https://www.disruptive-technologies.com/pilot-kit/) to get access.
+- Access to the DT Studio. This requires to purchase a [Sensor Pilot Kit](https://www.disruptive-technologies.com/products/sensor-starter-kit) to get access.
 
 ## Preparations & Setup
 1. In Cumulocity go to Administration -> Users and create a new User with the assigned Role `devices`. Make sure you set the password directly by unchecking "Send password reset link as email"
